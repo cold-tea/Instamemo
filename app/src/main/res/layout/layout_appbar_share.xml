@@ -1,0 +1,59 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        app:elevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <android.support.v7.widget.Toolbar
+            android:elevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tbShare"
+            android:background="@drawable/tablayout_top">
+
+
+            <RelativeLayout
+                android:paddingEnd="9dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvShareAppbar"
+                    android:layout_marginStart="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/ivGalleryAppbar"
+                    android:text="@string/gallery"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:id="@+id/ivGalleryAppbar"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/ic_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:enabled="false"
+                    android:id="@+id/tvShareAppbarNext"
+                    android:layout_marginEnd="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/next"
+                    android:textColor="@color/link_blue"
+                    android:textSize="19sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+</merge>

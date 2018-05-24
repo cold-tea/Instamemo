@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.heavenlyhell.instamemo.Profile.AccountsettingActivity">
+
+    <include layout="@layout/layout_center_viewpager" />
+
+    <RelativeLayout
+        android:id="@+id/rlSettingsMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/bottom_navigation">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rlSettingsAppbar">
+            <include layout="@layout/layout_appbar_accountsetting" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/rlSettingsAppbar"
+            android:layout_margin="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/account_settings"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                />
+            <View
+                android:foreground="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+            <ListView
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lvSettings"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlBottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <include layout="@layout/layout_navigation_bottom" />
+    </RelativeLayout>
+
+</RelativeLayout>

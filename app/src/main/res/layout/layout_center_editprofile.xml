@@ -1,0 +1,89 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/ic_user"
+            android:id="@+id/ivEditProfileMain"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_marginTop="9dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/link_blue"
+            android:text="@string/change_photo"
+            android:textSize="17sp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.-_"
+            android:inputType="textFilter"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:id="@+id/etEditProfileUsername"
+            android:drawableStart="@drawable/ic_usename"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+            android:inputType="textFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/display_name"
+            android:id="@+id/etEditProfileDisplayname"
+            android:drawableStart="@drawable/ic_display_name"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:inputType="textWebEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/website"
+            android:id="@+id/etEditProfileWeb"
+            android:drawableStart="@drawable/ic_web"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+
+            android:inputType="textNoSuggestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/description"
+            android:id="@+id/etEditProfileDescription"
+            android:drawableStart="@drawable/ic_description"/>
+
+        <TextView
+            android:background="@drawable/tablayout_top"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="23dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/private_information"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:id="@+id/etEditProfileEmail"
+            android:drawableStart="@drawable/ic_email"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_number"
+            android:id="@+id/etEditProfilePhone"
+            android:drawableStart="@drawable/ic_phone"/>
+    </LinearLayout>
+</merge>

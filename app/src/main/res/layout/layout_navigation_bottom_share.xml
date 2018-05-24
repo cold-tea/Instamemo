@@ -1,0 +1,23 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:parentTag="android.widget.RelativeLayout"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_navigation"
+        app:elevation="0dp">
+
+        <android.support.design.widget.TabLayout
+            android:elevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tlShare"
+            android:background="@drawable/bottom_navigation">
+
+
+        </android.support.design.widget.TabLayout>
+    </android.support.design.widget.AppBarLayout>
+</merge>

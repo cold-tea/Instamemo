@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Instamemo</string>
+
+    <!-- Layout file's string resources -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="todo">TODO</string>
+    <string name="register_a_new_account">REGISTER A NEW ACCOUNT</string>
+    <string name="display_name">Display Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="do_you_really_want_to_sign_out">Do you really want to sign out?</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="please_wait">Please wait</string>
+    <string name="dummy_user">dummy_user</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="username">Username</string>
+    <string name="website">Website</string>
+    <string name="description">Description</string>
+    <string name="private_information">PRIVATE INFORMATION</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sandesh_pokhrel">Sandesh Pokhrel</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="email_change_notify">You are changing Email!</string>
+    <string name="options">Options</string>
+    <string name="gallery">Gallery</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="next">NEXT</string>
+
+    <!-- Fragment names -->
+    <string name="fragment_profile">fragment_profile</string>
+    <string name="fragment_edit_profile">fragment_edit_profile</string>
+
+    <!--Dialog names -->
+    <string name="confirm_password_dialog">confirmPasswordDialog</string>
+
+
+    <!-- Java string resources -->
+    <string name="authentication_failed">Authentication failed.</string>
+    <string name="provide_email">Provide email.</string>
+    <string name="provide_valid_email">Provide valid email.</string>
+    <string name="provide_password">Provide password.</string>
+    <string name="email_unverified">Verify email before proceeding.</string>
+    <string name="password_mismatch">Password mismatch.</string>
+    <string name="sign_up_problem">Failed! Some problem occurred during signing up.</string>
+    <string name="email_verification">Verify your email address.</string>
+    <string name="default_status">Hey! I have joined Instamemo. Lets be friends.</string>
+    <string name="profile_load_problem">Problem loading profile.</string>
+    <string name="profile_update_success">Profile successfully updated.</string>
+    <string name="profile_update_success_appended_random">Profile successfully updated with random string
+        appended to username as it is not unique.</string>
+    <string name="email_update_failed_exists">Email already exists. Failed to update any
+        fields.</string>
+    <string name="email_update_success">Email is updated successfully. Please verify for
+        login.</string>
+    <string name="reauthentication_failed">Reauthentication failed. Provide valid password.</string>
+
+    <!-- Firebase related -->
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_account_settings">user_account_settings</string>
+    <string name="dbfield_email">email</string>
+    <string name="dbfield_phone_number">phone_number</string>
+    <string name="dbfield_user_id">user_id</string>
+    <string name="dbfield_username">username</string>
+    <string name="dbfield_posts">posts</string>
+    <string name="dbfield_followers">followers</string>
+    <string name="dbfield_following">following</string>
+    <string name="dbfield_website">website</string>
+    <string name="dbfield_description">description</string>
+    <string name="dbfield_display_name">display_name</string>
+    <string name="dbfield_profile_photo">profile_photo</string>
+
+</resources>

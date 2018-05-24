@@ -1,0 +1,21 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:parentTag="android.widget.RelativeLayout"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_navigation">
+        <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bnv"
+            app:menu="@menu/menu_bottom_navigation"
+            android:background="@drawable/bottom_navigation">
+
+        </com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx>
+    </RelativeLayout>
+</merge>

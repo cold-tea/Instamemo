@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.heavenlyhell.instamemo.Profile.EditProfileFragment">
+
+    <RelativeLayout
+        android:id="@+id/rlEditProfileAppbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/layout_appbar_editprofile" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@+id/rlEditProfileAppbar"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/bottom_navigation"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_center_editprofile" />
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rlBottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <include layout="@layout/layout_navigation_bottom" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/pbEditProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "21818509681",
+    "firebase_url": "https://instamemo-7b668.firebaseio.com",
+    "project_id": "instamemo-7b668",
+    "storage_bucket": "instamemo-7b668.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21818509681:android:a156a27fb4d95b81",
+        "android_client_info": {
+          "package_name": "com.heavenlyhell.instamemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21818509681-nde9ippaosjljn67h064eonoes11de56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.heavenlyhell.instamemo",
+            "certificate_hash": "71cad6e8194c6533756be31bf7f3bf44027682d8"
+          }
+        },
+        {
+          "client_id": "21818509681-1p06hkq8r46n479ja666bvfes28bgt89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1W3OPRXdGrQJUZmmThJZL8JssGk3xF5o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21818509681-1p06hkq8r46n479ja666bvfes28bgt89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
